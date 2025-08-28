@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.Gallery{
+    width: 100%;
+
+}
+
+.Gallery .heading1{
+background: linear-gradient(to right, #5a210d, #242524);
+height:250px;
+align-content: center;
+
+}
+.Gallery .heading1 h1{
+    font-size: 3.5em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+.text p{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+.pictures{
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading2 h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.pictures .heading2 .graphics{
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.heading2 .graphics img{
+    flex-grow: 2;
+    width: 380px;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+
+.btns{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns .btnhome{
+    font-weight: 550;
+    font-family: 'Poppins' sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgb(16, 16, 66);
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    }
+
+.btns .btnhome1{
+    margin-left: 60px;
+}
+
+.btns .btnhome2{
+   margin-left: 30px;
+}
+
+.btns .btnhome3{
+    margin-right: 60px;
+}
+.btns .btnhome:hover{
+    background-color:rgb(113, 104, 192);
+    cursor: pointer;
+    transition-duration: 1s;
+}

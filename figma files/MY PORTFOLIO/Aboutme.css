@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.aboutme{
+    width: 100%;
+
+}
+
+.aboutme .heading1{
+background: linear-gradient(to right, #5a210d, #242524);
+height:250px;
+align-content: center;
+
+}
+.aboutme .heading1 h1{
+    font-size: 3.5em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+
+
+}
+.writeups{
+    width: 100%;
+}
+
+.writeups .textpics{
+    width: inherit;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.writeups .textpics img{
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.writeup1a{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    text-align: justify;
+    font-family:'Poppins' sans-serif;
+    padding-top: 20px;
+}
+
+
+.writeup1a .p{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-left: 40px;
+    gap: 80px;
+}
+
+.writeup1a .table table{
+    width: 90%;
+    height: 300px;
+}
+
+.table table th{
+    text-align: center;
+}
+
+.table table #no{
+    text-align: center;
+}
+
+.table table td{
+    padding-left: 20px;
+}
+
+.writeup1a .table table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse; 
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.writeup1a  .btnhome{
+    font-weight: 550;
+    font-family: 'Poppins' sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgb(16, 16, 66);
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+   
+}
+
+.btnhome1 .btnhome {
+    margin-right: 30px;
+}
+
+.writeup1a .btnhome:hover{
+    background-color:rgb(113, 104, 192);
+    cursor: pointer;
+    transition-duration: 1s;
+}

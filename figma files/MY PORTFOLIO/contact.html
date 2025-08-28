@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section class="aboutme" id="sec1">
+        <div class="heading1">
+            <h1 data-aos="fade-down" data-aos-delay="800" data-aos-duration="1200"><b>Contact Me</b></h1>
+        </div>
+    </section>
+    
+    <section class="form">
+        <div class="inputreg">
+            <form onsubmit="setTimeout(() => this.reset(), 100);" action="https://formspree.io/f/xpwrkaaa" method="POST">
+                    <div class="input">
+                        <input type="text" name="Full Name" placeholder="Enter Full name" title="Please Kindly Enter your Full name" required>
+                    </div>
+
+                    <div class="input">
+                        <input type="text" name="email" placeholder="Enter email address" title="Please Kindly Enter you email adddress" required>
+                    </div>
+
+                    <div class="input">
+                        <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Leave a message" required>
+                        </textarea>
+                    </div>
+
+                <div class="btnsnew">
+                    <div class="input">
+                        <input type="reset" id="btn1" value="Reset">
+                    </div>
+                    <div class="input">
+                        <input type="submit" id="btn2" value="submit">
+                    </div>
+              </div>
+                </div>
+        </form>
+    </section>
+
+             <div class="writeup1a">
+                    <div class="btns">
+                            <div class="btnhome1">
+                                <a href="Aboutme.html" target="_parent">
+                                    <button class="btnhome">
+                                        < Previous Page
+                                    </button>
+                                </a>
+                            </div>
+
+                            <div class="btnhome1">
+                                <a href="gallery.html" target="_parent">
+                                    <button class="btnhome">
+                                        Next Page >
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+            </div>
+
+
+
+                         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                        <script>
+                            AOS.init();
+                        </script>
+</body>
+</html>
